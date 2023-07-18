@@ -5,4 +5,6 @@ set(BUILD_SHARED_LIBS OFF)
 
 project(cmake-template)
 
+add_subdirectory(empty-project)
+
 add_subdirectory(dependencies)
